@@ -1,0 +1,85 @@
+body {
+  background-color: #009aee;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customization-panel {
+  width: 30%;
+  padding: 10px;
+}
+
+.chatbot-ui {
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  border: 1px solid;
+  max-width: 25vw;
+  margin: 30px 10px;
+  min-height: 86vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-icon {
+  font-size: 32px;
+}
+
+.chat-title {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.chat-title-text h4 {
+  color: white;
+  margin: 5px;
+}
+
+.chat-title-text p {
+  color: white;
+  margin: 5px;
+}
+
+.user-message {
+  margin: 10px;
+  padding: 10px;
+  max-width: fit-content;
+  float: right;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.bot-message {
+  margin: 10px;
+  padding: 10px;
+  max-width: 18vw;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  float: left;
+}
+
+.user-input {
+  width: 94%;
+  margin-bottom: 20px;
+  border: none;
+  padding: 10px;
+}
+
+.user-input:focus {
+  outline: none;
+}
+
+.input-div {
+  box-shadow: 0px -11px 0px -20px rgba(0, 0, 0, 0.07),
+    0px -25px 20px -20px rgba(0, 0, 0, 0.1);
+}
+
+.customization-panel-label-input {
+  max-width: 18vw;
+}
